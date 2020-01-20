@@ -1,0 +1,70 @@
+ul{
+    border: none !important;
+  }
+.el-table::before {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+}
+.el-table--border::after, .el-table--group::after {
+  top: 0;
+  right: 0;
+  height: 0 !important;
+  height: 100%;
+}
+.el-table--border, .el-table--group {
+  border: 1px solid transparent;
+}
+.btn-null {
+  width: 120px;
+  background-color: transparent;
+  border: 1px solid #2B621B;
+  color: #2B621B;
+}
+.btn-color {
+  width: 120px;
+  border: 1px solid #2B621B;
+  color: #2B621B;
+}
+.btn-sucess {
+  width: 120px;
+  background-color: #2B621B;
+  border: 1px solid #2B621B;
+  color: #fff;
+}
+.flex-around{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dialog-center {
+  text-align: center;
+  font-size: 24px;
+}
+.el-dialog__footer {
+  padding: 50px 0;
+}
+.input-50 {
+  width: 500px;
+}
+.input-40 {
+  width: 400px;
+}
+.input-30 {
+  width: 200px;
+}
+.w-60 {
+  width: 500px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.w-65 {
+  width: 535px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
